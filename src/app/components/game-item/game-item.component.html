@@ -1,0 +1,11 @@
+<div class="game">
+    <div class="img-container">
+        <img [src]="game?.imgUrl" [alt]="game?.title" />
+    </div>
+    <div class="content">
+        <h2>{{ game?.title }} ( {{ game?.year }} )</h2>
+        <div class="description">
+            <span>{{ game?.shortDescription }}</span>
+        </div>
+    </div>
+</div>

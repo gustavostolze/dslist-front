@@ -1,0 +1,31 @@
+.game {
+    display: flex;
+    transition: 0.3s;
+    padding: 2.5px;
+    border-radius: 5px;
+    border-bottom: 2px black solid;
+}
+
+.game:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    margin-left: 5px;
+    h2 {
+        font-family: "Bungee", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    color: rgb(210, 210, 210);
+}
+
+.img-container img {
+    height: 125px;
+}
+
+.description {
+    font-size: 18px;
+    margin-left: 5px;
+}

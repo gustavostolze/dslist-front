@@ -1,1 +1,13 @@
-<p>game works!</p>
+<div class="container">
+    <div class="img-container">
+        <img [src]="game?.imgUrl" alt="">
+    </div>
+    <div class="content-container">
+        <div class="title-container">
+            <h1> {{ game?.title }} ({{ game?.year }}) </h1>
+        </div>
+        <div class="description-container">
+            <span> {{ game?.longDescription }} </span>
+        </div>
+    </div>
+</div>

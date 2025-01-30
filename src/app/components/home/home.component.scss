@@ -1,57 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Kumbh+Sans:wght@100..900&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-header .row {
-    padding-top: 20px;
-    font-family: "Bungee", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.main-container h1 {
-    margin-left: 40px;
-    font-size: 40px;
-    color: purple;
-}
-
-.sub-container {
-    background-color: #f7c706;
-    width: fit-content;
-    padding: 5px;
-    margin-top: -18px;
-    margin-left: 70px;
-    font-family: "Kumbh Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 14px;
-}
-
-.yellow-line {
-    background-color: #f3c225;
-    height: 5px;
-    margin-top: 8px;
-}
-
-header .list-container {
-    position: absolute;
-    top: 30px;
-    right: 5%;
-}
-
-header .list-container ul {
-    list-style: none;
-    display: flex;
-}
-
-header .list-container ul li {
-    margin: 0px 10px;
-}
-
 main .list-container {
     display: flex;
     flex-wrap: wrap;
